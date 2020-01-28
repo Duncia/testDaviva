@@ -1,0 +1,66 @@
+/* General CSS for row and upper part (the introduction) */
+
+body {
+    background-color: #E9ECEF!important;
+}
+
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+.row {
+    display: block!important;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+    flex-wrap: nowrap!important;
+}
+
+.upperPart {
+    background-color: #C34A36;
+    color: #fff;
+}
+
+.upperPart p {
+    margin-bottom: 0px;
+}
+
+.row.cardSection {
+    max-width: 1400px;
+    margin: auto!important;
+}
+
+.middlePart {
+    background-color: #E9ECEF;
+}
+
+/* Card specific CSS to display cards properly */
+
+.card {
+    display: inline-block!important;
+    vertical-align: top!important;
+    margin: 10px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+p.card-text {
+    margin-bottom: 0px;
+}
+
+.carousel-item img {
+    max-width: 18rem;
+}
+
+.showPrice {
+    text-align: center;
+    background-color: #E9ECEF;
+    color: #709900;
+}
+
